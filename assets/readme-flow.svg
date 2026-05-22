@@ -1,0 +1,48 @@
+<svg width="1200" height="150" viewBox="0 0 1200 150" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Hermes Agent interface strip</title>
+  <desc id="desc">A compact decorative strip showing Hermes Agent moving between terminal, tools, memory, skills, and messaging.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="150" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#15122D"/>
+      <stop offset="0.55" stop-color="#201548"/>
+      <stop offset="1" stop-color="#2D1E5F"/>
+    </linearGradient>
+    <linearGradient id="line" x1="80" y1="76" x2="1120" y2="76" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F7C948"/>
+      <stop offset="0.5" stop-color="#A78BFA"/>
+      <stop offset="1" stop-color="#67E8F9"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="150" rx="28" fill="url(#bg)"/>
+  <g opacity="0.20" fill="#fff">
+    <circle cx="95" cy="34" r="3"/><circle cx="174" cy="114" r="2"/><circle cx="1018" cy="30" r="3"/><circle cx="1100" cy="100" r="2"/><circle cx="705" cy="28" r="2"/>
+  </g>
+  <path d="M94 76H1106" stroke="url(#line)" stroke-width="3" stroke-linecap="round" stroke-dasharray="10 12"/>
+  <g font-family="Inter,Segoe UI,Arial,sans-serif" text-anchor="middle">
+    <g transform="translate(160 76)">
+      <circle r="33" fill="#F7C948" fill-opacity="0.16" stroke="#F7C948"/>
+      <text y="7" fill="#FFF4C2" font-size="25">⌁</text>
+      <text y="60" fill="#EDE9FE" font-size="13" font-weight="700">CLI / TUI</text>
+    </g>
+    <g transform="translate(380 76)">
+      <circle r="33" fill="#A78BFA" fill-opacity="0.16" stroke="#A78BFA"/>
+      <text y="8" fill="#EDE9FE" font-size="24">⚙</text>
+      <text y="60" fill="#EDE9FE" font-size="13" font-weight="700">Tools</text>
+    </g>
+    <g transform="translate(600 76)">
+      <circle r="39" fill="#FFFFFF" fill-opacity="0.10" stroke="#FFFFFF" stroke-opacity="0.55"/>
+      <text y="9" fill="#FFFFFF" font-size="28">☤</text>
+      <text y="66" fill="#FFFFFF" font-size="14" font-weight="800">Hermes loop</text>
+    </g>
+    <g transform="translate(820 76)">
+      <circle r="33" fill="#67E8F9" fill-opacity="0.14" stroke="#67E8F9"/>
+      <text y="8" fill="#CFFAFE" font-size="23">✦</text>
+      <text y="60" fill="#EDE9FE" font-size="13" font-weight="700">Memory + skills</text>
+    </g>
+    <g transform="translate(1040 76)">
+      <circle r="33" fill="#34D399" fill-opacity="0.14" stroke="#34D399"/>
+      <text y="8" fill="#D1FAE5" font-size="23">↗</text>
+      <text y="60" fill="#EDE9FE" font-size="13" font-weight="700">Messaging</text>
+    </g>
+  </g>
+</svg>
